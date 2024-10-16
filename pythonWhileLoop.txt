@@ -1,0 +1,42 @@
+#code
+#IN PYTHON PROGRAMMING, THEY ARE TWO MAJOR LOOPS
+#1.  while LOOPS
+# THE for LOOPS
+# In python, a while loop is used to exercute a block of statement repeatedly untill a giving condition is satisfied
+
+#EXAMPLE # -*- coding: latin-1 -*-
+
+count = 0
+while (count<5):
+    count = count+1
+    print("Ayobami is a star")
+    
+    
+    
+# WHILE LOOP WITH AN ELSE statement
+count = 0
+while(count <=4):
+    count = count+1
+    print("He is a young STAR")
+else:
+    print("That guy is old men!!")
+    
+# THE INFINITE WHILE LOOP
+initial = 0
+while(initial == 2):
+    print(2*2)
+else:
+    print("AYOBAMI WHY?")
+    
+# PYTHON FOR LOOP
+n = 6
+for i in range(0, n):
+    print(i)
+    
+print("List iteration")
+l = ("good boy", "for", "Life")
+for i in l:
+    print(i)
+    
+    
+    
